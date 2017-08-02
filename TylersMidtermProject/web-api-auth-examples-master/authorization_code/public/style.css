@@ -1,0 +1,139 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: #111111;
+}
+
+h1{
+	font: italic 100px/45px Helvetica, Arial, sans-serif;
+	text-align: center;
+	float: center;
+	color: NavajoWhite;
+	text-shadow: 2px 2px 5px #006666;
+}
+
+h2{
+	font: italic 60px/45px Helvetica, Arial, sans-serif;
+	text-align: center;
+	float: center;
+	color: NavajoWhite;
+}
+
+h3{
+	font: italic 60px/45px Helvetica, Arial, sans-serif;
+	text-align: center;
+	float: center;
+	color: NavajoWhite;
+}
+
+h4{
+	color: red;
+	position: relative;
+	font: bold 20px/25px Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0 0 0 12px;
+	white-space: nowrap;
+}
+
+main{
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+
+nav {
+	float: right;
+	width: 50%;
+	position: relative;
+}
+
+table {
+	width: 100%;
+	position: static;
+
+}
+
+th, td {
+	padding: 7px 10px 10px 10px;
+}
+
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left;
+}
+			
+tr.even {
+	background-color: #e0ebeb;
+}
+
+tr.oddrec{
+	background-color: #e0e0eb;
+}
+		
+tr:hover {
+	background-color: #c3e6e5;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img{
+	display: block;
+	width: 10%;
+	height: 10%;
+	margin: 0 auto;
+}
+
+
+/*.playlistitems{ position: top: 10px; }* {
+	box-sizing: border-box;
+	background: PaleGreen;
+}*/
+
+/*.recommendationitems{ position: top: 10px; }* {
+	box-sizing: border-box;
+	background: PaleGreen;
+
+}*/
+
+
+
